@@ -1,5 +1,6 @@
 import React from 'react';
 export default function Searchbox(props) {
+  console.log(props);
   return (
     <div className="searchbox">
       <div>

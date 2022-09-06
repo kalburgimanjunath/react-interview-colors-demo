@@ -53,8 +53,8 @@ export default function App() {
   return (
     <div>
       {searchColor}
-      {/* <Searchbox onChange={handleChange} value={searchColor} /> */}
-      <div className="searchbox">
+      <Searchbox onChange={handleChange} value={searchColor} />
+      {/* <div className="searchbox">
         <div>
           <h3>Search any word(demo : almon)</h3>
           <input
@@ -64,7 +64,7 @@ export default function App() {
             value={searchColor}
           />
         </div>
-      </div>
+      </div> */}
       <div>
         <div>
           <h1 className="text-gradient">Color gradient grid</h1>
